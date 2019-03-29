@@ -105,84 +105,84 @@ Dê à sua equipe um espaço compartilhado para brainstorming, anotações e doc
 /* Plans selection translations (https://coggle.it/plans, when logged in, and
  * also on the homepage)
  */
-<plans-title-freeforever "Coggle is free to use, and always will be. Create unlimited public diagrams and share them for free.">
+<plans-title-freeforever "O Coggle é grátis e sempre será. Crie diagramas públicos ilimitados e compartilhe-os gratuitamente.">
 
-<plans-free-forever-title "Free Forever">
-<plans-free-description "Ideal for discovering Coggle and occasional use.">
-<plans-free-price "Free forever">
-<feature-free-private "<b>1</b> private diagram">
-<feature-realtime "<b>Real-time</b> collaboration">
-<feature-emoji "Over <b>1600</b> <a>beautiful icons</a>">
-<feature-diagrams "<b>Unlimited</b> public diagrams">
+<plans-free-forever-title "Free">
+<plans-free-description "Ideal para quem quer descobrir o Coggle e para uso ocasional.">
+<plans-free-price "$0 para sempre">
+<feature-free-private "<b>3</b> Diagramas Privados">
+<feature-realtime "Colaboração <b>em tempo real</b>">
+<feature-emoji "Mais de <b>1600</b> <a>ícones incríveis</a>">
+<feature-diagrams "Diagramas Públicos <b>Ilimitados</b>">
 <feature-nprivate[$privateDiagrams.available] {
        1: "1 private diagram",
    *many: "{{ $privateDiagrams.available }} private diagrams"
 }>
-<feature-images "<b>Unlimited</b> image uploads">
-<feature-changes "<b>Full</b> change history">
-<feature-markdown "<b>Markdown</b> support">
-<feature-downloads "<b>PDF & Image</b> download">
-<feature-labels "Unconnected <b>text boxes</b>">
-<feature-exports "Export as <b>.mm and text</b>">
-<feature-imports "Import <b>.mm and text</b>">
-<feature-chat "Comments & Chat">
-<feature-embed "Embeddable diagrams">
-<plans-free-getstarted "Get Started">
+<feature-images "Upload de imagens <b>ilimitado</b>">
+<feature-changes "Histórico de mudanças <b>completo</b>">
+<feature-markdown "Suporte a <b>Markdown</b>">
+<feature-downloads "Download do diagrama em <b>PDF e Imagem</b>">
+<feature-labels "<b>Caixas de Texto</b> Flutuantes">
+<feature-exports "Exportação nos formatos <b>.mm e .txt</b>">
+<feature-imports "Importação nos formatos <b>.mm e .txt</b>">
+<feature-chat "Comentários e Chat">
+<feature-embed "Incorporação de Diagramas">
+<plans-free-getstarted "Comece Agora">
 
 <plans-awesome-title "Awesome">
-<plans-awesome-description "Ideal for <b>personal</b> or <b>professional</b> use, with privacy and advanced features.">
-<plans-awesome-price "$5 / month">
-<feature-include-free "Everything in <b>Free</b>">
-<feature-unlimited-private "<b>Unlimited</b> private diagrams">
-<feature-multiroot "<b>Multiple start points</b>">
-<feature-private "<b>Private diagrams</b>">
-<feature-chathistory "<b>Full</b> chat history">
-<feature-rearrange "<b>Auto-arrange branches</b>">
-<feature-rejoin "<b>Join Branches</b>">
-<feature-folders "<b>Shared folders</b>">
-<feature-presentation "Presentation mode">
-<feature-bigimages "<b>High-res image</b> uploads">
-<feature-linestyles "<b>Control line style</b>">
-<feature-extendedcolours "More colours">
-<plans-findoutmore "Find out more">
+<plans-awesome-description "Ideal para uso <b>pessoal</b> ou <b>profissional</b>, com privacidade e recursos avançados.">
+<plans-awesome-price "$5 / mês">
+<feature-include-free "Tudo que está no <b>Free</b>">
+<feature-unlimited-private "Diagramas Privados <b>Ilimitados</b>">
+<feature-multiroot "<b>Múltiplos pontos de início</b>">
+<feature-private "<b>Diagrama Privados</b>">
+<feature-chathistory "Histórico <b>Completo</b> de Chat">
+<feature-rearrange "<b>Função Auto-arrange para os branches</b>">
+<feature-rejoin "<b>Unir Branches</b>">
+<feature-folders "<b>Pastas Compartilhadas</b>">
+<feature-presentation "Modo de Apresentação">
+<feature-bigimages "Upload de <b>Imagens em alta resolução</b>">
+<feature-linestyles "<b>Controle sobre o estilo da linha</b>">
+<feature-extendedcolours Mais cores disponíveis">
+<plans-findoutmore "Descubra muito mais">
 
 <plans-org-title "Organisation">
-<plans-org-description "Ideal for <b>teams</b> that want to control access to their data and consolidate billing.">
-<plans-org-price "$8 / member / month">
-<feature-org-awesome "Everything from <b>Awesome</b>">
-<feature-org-separate "Separate Personal workspace">
-<feature-org-billing "Consolidated billing">
-<feature-bulkexport "<b>Bulk export</b>">
-<feature-adminpanel "<b>User & data</b> management">
-<feature-branding "Branded diagrams">
+<plans-org-description "Ideal para <b>equipes</b> que desejam controlar o acesso aos dados e consolidar o faturamento.">
+<plans-org-price "$8 mensais por membro">
+<feature-org-awesome "Tudo que está no <b>Awesome</b>">
+<feature-org-separate "Área de Trabalho Pessoal Separada">
+<feature-org-billing "Faturamento consolidado">
+<feature-bulkexport "<b>Exportação em massa</b>">
+<feature-adminpanel "Gerenciamento de <b>Usuários e Dados</b>">
+<feature-branding "Diagramas com a sua marca (Branded diagrams)">
 
-<plans-select "Select">
-<continue-free "Continue on <b>Free</b> plan">
-<current-plan "Your current plan">
-<cancel-subscription "Cancel Subscription">
-<awesome-signup-monthly "Sign up <span>$5</span> per month">
-<awesome-signup-yearly "Sign up <span>$50</span> per year">
+<plans-select "Escolha o Plano">
+<continue-free "Continue no <b>Free</b>">
+<current-plan "Seu plano atual">
+<cancel-subscription "Cancelar inscrição">
+<awesome-signup-monthly "Assine o plano de <span>$5</span> por mês">
+<awesome-signup-yearly "Assine o plano de <span>$50</span> per year">
 <awesome-upgrade-monthly "Upgrade (<b>$5</b>/month)">
 <awesome-upgrade-yearly "Upgrade (<b>$50</b>/year)">
-<product-purchase "PURCHASE">
-<yearly-discount "Pay yearly and get 2 months free!">
-<yearly-discount-percent "Pay yearly and save over 15%">
-<switch-yearly "Upgrade to Yearly">
-<manage-subscription "Manage Subscription">
+<product-purchase "Compra">
+<yearly-discount "Pague anualmente e ganhe 2 meses grátis!">
+<yearly-discount-percent "Pague anualmente e economize mais de 15%">
+<switch-yearly "Upgrade para o plano Anual">
+<manage-subscription "Gerenciar Assinatura">
 
-<per-month "per month">
-<per-member-per-month "per member per month">
+<per-month "por mês">
+<per-member-per-month "membro por mês">
 
-<awesome-feature "Awesome Plan">
-<org-feature "Organisation Feature">
+<awesome-feature "Plano Awesome">
+<org-feature "Característica do Organisation">
 
-<footer-about "about">
-<footer-contact "contact">
+<footer-about "sobre">
+<footer-contact "contato">
 <footer-facebook "facebook">
 <footer-twitter "twitter">
 <footer-privacy "privacy">
-<footer-terms "terms">
-<footer-press "press">
+<footer-terms "termos">
+<footer-press "mídia">
 <footer-gdrive "<img/> Google Drive">
 
 
