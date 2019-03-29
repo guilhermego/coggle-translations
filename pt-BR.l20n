@@ -188,60 +188,60 @@ Dê à sua equipe um espaço compartilhado para brainstorming, anotações e doc
 
 /* logged-in homepage content (documents list): https://coggle.it when logged in 
 */
-<create-diagram "<span>Create Diagram</span>">
-<search-diagrams placeholder:"Search your diagrams">
-<view-gallery "Gallery">
-<create-folder "Create Folder">
-<shared-folders "Shared Folders">
-<created-by-you value:"Created By You">
-<shared-with-you value:"Shared With You">
-<folder-title placeholder:"Enter a folder name">
-<folder-areyousure "are you sure? <span>I&#39;m sure</span>">
+<create-diagram "<span>Criar Diagrama</span>">
+<search-diagrams placeholder:"Buscar seus diagramas">
+<view-gallery "Galeria">
+<create-folder "Criar pasta">
+<shared-folders "Pastas compartilhadas">
+<created-by-you value:"Criados por você">
+<shared-with-you value:"Compartilhados com você">
+<folder-title placeholder:"Digite o nome da pasta">
+<folder-areyousure "tem certeza? <span>Sim, eu tenho</span>">
 <logout "Logout">
-<settings "Settings">
-<return-to-diagrams "Return to your diagrams">
-<upgrade-to-awesome "Upgrade to <b>Awesome</b>!">
-<awesome-time-remaining "Awesome trial expires <time></time>"> /* the <time></time> element is replaced with a translated string like "15 days from now", "1 month from now" etc. */
-<awesome-trial-after "Then you'll be moved onto the free plan">
-<want-awesome-for-free "Want Awesome for free?">
-<personal-org "Personal <span>(<a>what is this?</a>)</span>">
-<help-search placeholder:"Help me to...">
-<my-settings "My Settings & Billing">
-<org-name-settings "{{ $orgName }} Settings">
-<org-settings title:"Manage Organisation">
-<user-about "About Coggle">
-<user-contact "Contact Us">
-<user-privacy "Privacy Policy">
-<user-terms "Terms and Conditions">
-<user-link-drive "Link Google Drive">
-<diagrams-limited "<span> {{ $privateDiagrams.used }} of {{ $privateDiagrams.available }}</span> private diagrams used">
-<diagrams-unlimited "<span>Unlimited</span> private diagrams">
+<settings "Configurações">
+<return-to-diagrams "Retornar aos diagramas">
+<upgrade-to-awesome "Mude para o <b>Awesome</b>!">
+<awesome-time-remaining "Teste do Awesome expira em <time></time>"> /* the <time></time> element is replaced with a translated string like "15 days from now", "1 month from now" etc. */
+<awesome-trial-after "Agora você será movido para o plano gratuito :)">
+<want-awesome-for-free "Quer o Awesome de graça?">
+<personal-org "Pessoal <span>(<a>o que é isso?</a>)</span>">
+<help-search placeholder:"Me ajude a...">
+<my-settings "Minhas Configurações & Cobrança">
+<org-name-settings "{{ $orgName }} Configurações">
+<org-settings title:"Gerenciar Organização">
+<user-about "Sobre o Coggle">
+<user-contact "Fale conosco">
+<user-privacy "Política de Privacidade">
+<user-terms "Termos e Condições">
+<user-link-drive "Conecte ao Google Drive">
+<diagrams-limited "<span> {{ $privateDiagrams.used }} de {{ $privateDiagrams.available }}</span> diagramas privados em uso">
+<diagrams-unlimited "Diagramas Privados <span>Ilimitados</span>">
 
 <limitedaccess "Você tem acesso limitado a  como você não é um membro">
 <doclist-create """
-    <b>Welcome to Coggle!</b> – Diagrams you create will be listed here.
-    <div><a>Create Diagram</a></div>
+    <b>Bem-vindo ao Coggle!</b> – Diagramas que você criar estarão listados aqui.
+    <div><a>Criar Diagrama</a></div>
 """>
-<doclist-shared "<b>Shared With You</b> – diagrams created by other people then shared with you are in this folder.">
-<doclist-folder-empty "<b>This is an empty folder!</b> – Create a new diagram here, or drag & drop diagrams into folders.">
-<impersonatedaccess "You're viewing Coggle as an Organisation member. <a>Return to admin panel</a>">
+<doclist-shared "<b>Compartilhado com você</b> – diagramas criados por outras pessoas e compartilhados com você estarão aqui.">
+<doclist-folder-empty "<b>Está pasta está vazia!</b> – Crie um novo diagrama aqui, ou arraste & solte diagramas nas pastas desejadas.">
+<impersonatedaccess "Você está vendo Coggle como um membro Organisation. <a>Retornar ao painel de administração</a>">
 
-<doclist-loading-failed "Uh-oh! Loading folder failed, refresh the page to try again.">
-<doclist-discover-whatspossible "Want to get more from Coggle? Discover <a>what's possible</a>.<div></div>">
+<doclist-loading-failed "Uh-oh! Carregamento da pasta falhou, atualize a página para tentar novamente.">
+<doclist-discover-whatspossible "Quer obter mais do Coggle? Descubra <a>o que é possível</a>.<div></div>">
 <doclist-upgrade """
-   <div> <b>Multiple starting points!</b> <p>Create multiple starting points with <a>Coggle Awesome</a>.</p> <a>Upgrade Now</a> <div></div> </div>
+   <div> <b>Múltiplos pontos de início!</b> <p>Crie múltiplos pontos de início com o <a>Coggle Awesome</a>.</p> <a>Faça upgrade agora</a> <div></div> </div>
 """>
 
-<tooltip-createorg title:"Create an Organisation">
-<tooltip-invite-folder title:"Add people to this folder by email">
-<tooltip-invite title:"Invite people to join this Coggle.">
-<tooltip-private-icon title:"Diagram is private">
-<tooltip-unsubscribe title:"Unsubscribe from notifications">
-<tooltip-subscribe title:"Subscribe to notifications">
-<tooltip-duplicate title:"Create a copy">
-<tooltip-remove title:"Remove diagram">
-<tooltip-restore title:"Restore diagram">
-<tooltip-more title:"Diagram options">
+<tooltip-createorg title:"Criar Organisation">
+<tooltip-invite-folder title:"Adicionar pessoas nessa pasta via email">
+<tooltip-invite title:"Convide pessoas a se juntar nesse Coggle.">
+<tooltip-private-icon title:"O Diagrama é privado">
+<tooltip-unsubscribe title:"Cancelar inscrição para notificações">
+<tooltip-subscribe title:"Inscrever-se para receber notificações">
+<tooltip-duplicate title:"Criar uma cópia">
+<tooltip-remove title:"Remover diagrama">
+<tooltip-restore title:"Restaurar diagrama">
+<tooltip-more title:"Opções de diagrama">
 
 /* documents list contextual help items */
 <help-searchcoggle-title "Search Coggle">
